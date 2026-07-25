@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String arg[]){
+        Scanner sc = new Scanner(System.in);
+        int temp = sc.nextInt();
+        int F = ((9*temp)/5) + 32;
+        System.out.println(F);
+        sc.close();
+    }
+    
+}
