@@ -1,0 +1,146 @@
+# Java Quick Notes ☕
+
+## 1. Basic Program
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+---
+
+## 2. Import Statements
+
+```java
+import java.util.Scanner;
+import java.util.*;
+import java.io.*;
+// java.lang.* is imported automatically
+```
+
+---
+
+## 3. Scanner (Input)
+
+```java
+Scanner sc = new Scanner(System.in);
+
+int n = sc.nextInt();
+long l = sc.nextLong();
+float f = sc.nextFloat();
+double d = sc.nextDouble();
+char ch = sc.next().charAt(0);
+String word = sc.next();
+String line = sc.nextLine();
+boolean b = sc.nextBoolean();
+```
+
+---
+
+## 4. Output
+
+```java
+System.out.print("Hello");
+System.out.println("Hello");
+System.out.printf("Age = %d", 20);
+System.out.printf("CGPA = %.2f", 8.954);
+```
+
+### Print Decimal up to 2 Places
+
+```java
+double num = 12.34567;
+System.out.printf("%.2f", num);
+```
+
+Output:
+```
+12.35
+```
+
+---
+
+## 5. Data Types
+
+```java
+byte
+short
+int
+long
+float
+double
+char
+boolean
+String
+```
+
+---
+
+## 6. Variable Declaration
+
+```java
+int age = 20;
+long population = 8000000L;
+float marks = 92.5f;
+double cgpa = 8.95;
+char grade = 'A';
+boolean pass = true;
+String name = "Anubhuti";
+```
+
+---
+
+## 7. Type Casting
+
+### Implicit (Widening)
+
+```java
+int a = 10;
+double b = a;
+```
+
+### Explicit (Narrowing)
+
+```java
+double x = 10.75;
+int y = (int)x;
+```
+
+---
+
+## 8. Comments
+
+```java
+// Single-line comment
+
+/*
+Multi-line
+comment
+*/
+```
+
+---
+
+## 9. Escape Characters
+
+```java
+\n   // New Line
+\t   // Tab
+\"   // Double Quote
+\\   // Backslash
+```
+
+---
+
+## 10. Useful Shortcuts
+
+```java
+psvm    → public static void main(String[] args)
+
+sout    → System.out.println();
+
+fori    → for loop
+```
